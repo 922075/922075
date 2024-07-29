@@ -53,7 +53,7 @@ class Player:
 class App:
     def __init__(self): #初期値
         pyxel.init(16*16, 16*12)
-        pyxel.load("my_resource.pyxres")
+        pyxel.load("mario.pyxres")
 
         self.player = Player(0,9*16)
         
